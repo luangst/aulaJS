@@ -1,0 +1,71 @@
+/*let array
+console.log('a. ', array)//declarou uma variavel (undefined)
+
+array = null
+console.log('b. ', array)//variavel declarada com valor nulo
+
+array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+console.log('c. ', array.length)//11
+
+let i = 0
+console.log('d. ', array[i])//(vai aparecer a posição 0 do array) 3
+
+array[i+1] = 19//i posição 0 +1 posição(4 que é subst 19)
+console.log('e. ', array)
+
+const valor = array[i+6]//(0+6 posições)posição do 9 
+console.log('f. ', valor)*/
+
+
+/*const frase = prompt("Digite uma frase")
+
+console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length) 
+//deixara toda a frase em maiusculo 
+//trocara a vogal A pela I 
+//conta as letras e espaços da frase
+//SUBI NUM ÔNIBUS EM MIRROCOS //27*/
+
+
+/*let emailUsuário= prompt ("Qual seu e-mail?")
+let nomeUsuário= prompt ("Qual seu nome?")
+
+let frase =( 'O e-mail ' + emailUsuário + ' foi cadastrado com sucesso. Seja bem-vinda(o) '+ nomeUsuário ) 
+
+console.log(frase)*/
+
+
+/*let listComFav=['Massa','lasanha','pizza','bolo','rocambole']
+console.log(listComFav)
+
+let frase= "essas são minhas comidas favoritas " + listComFav
+console.log(frase)
+
+const itemUm = listComFav[0]
+console.log(itemUm)
+const itemDois = listComFav[1]
+console.log(itemDois)
+const itemTres = listComFav [2]
+console.log(itemTres)
+const itemQuatro = listComFav[3]
+console.log(itemQuatro)
+const itemCinco = listComFav[4]
+console.log(itemCinco)
+
+let comidaFavUsu= prompt("Qual sua comida favorita?")
+listComFav [1] = comidaFavUsu
+console.log(listComFav)*/
+
+
+
+const listaDeTarefas=[]
+console.log( listaDeTarefas)
+
+const tarefasReal1= prompt ("digite 1 tarefa")
+const tarefasReal2= prompt ("digite outra tarefa")
+const tarefasReal3= prompt ("digite outra tarefa")
+listaDeTarefas.push(tarefasReal1, tarefasReal2, tarefasReal3)
+console.log(listaDeTarefas)
+
+const realTarefa= prompt ("Tarefa ja realizada 0,1 ou 2?")
+listaDeTarefas.splice (realTarefa)
+console.log(listaDeTarefas)
